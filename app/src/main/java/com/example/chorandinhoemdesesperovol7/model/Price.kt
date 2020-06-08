@@ -9,7 +9,7 @@ import android.os.Parcelable
 @Parcelize
 data class Price(
     @SerializedName("price")
-    val price: Int,
+    val price: Double,
     @SerializedName("type")
     val type: String
 ) : Parcelable
